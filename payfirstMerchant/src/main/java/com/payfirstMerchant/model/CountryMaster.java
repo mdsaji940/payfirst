@@ -15,7 +15,7 @@ import java.util.List;
 public class CountryMaster {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer countryId;
     private String countryIsoCode;
     private String countryName;
     private String currencyCode;

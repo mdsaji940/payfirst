@@ -19,9 +19,7 @@ import java.util.Set;
 public class UserMaster {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
-    private Integer id;
-    @Column(name = "NAME")
+    private Integer userId;
     private String name;
     private String email;
     private String mobile;

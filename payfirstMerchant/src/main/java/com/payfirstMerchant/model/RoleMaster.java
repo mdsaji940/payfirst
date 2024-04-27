@@ -19,7 +19,7 @@ import java.util.Set;
 public class RoleMaster {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer roleId;
     private String roleName;
     private Boolean isActive;
     private Date createdDate;
